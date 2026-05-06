@@ -1,3 +1,4 @@
 build:
-  settings:
+  settings: 
     board_root: .
+    name: zmk-keyboard-artsey-foundry

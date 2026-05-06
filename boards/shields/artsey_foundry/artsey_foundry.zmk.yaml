@@ -1,0 +1,12 @@
+file_format: "1"
+id: artsey_foundry
+name: Artsey Foundry
+type: shield
+
+url: https://wiki.seeedstudio.com/Seeed_XIAO/
+
+requires:
+  - seeeduino_xiao
+
+features:
+  - keys

@@ -1,7 +1,6 @@
 / {
     kscan: kscan {
         compatible = "zmk,kscan-gpio-direct";
-        label = "KSCAN";
 
         input-gpios = <
             &xiao_d 0 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)
@@ -13,15 +12,6 @@
             &xiao_d 9 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)
             &xiao_d 8 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)
         >;
-    };
-
-    physical_layout0: physical_layout_0 {
-        compatible = "zmk,physical-layout";
-        display-name = "Default Layout";
-
-        // FIXED reference
-        kscan = <&kscan>;
-
     };
 
     chosen {
